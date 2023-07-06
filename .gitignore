@@ -1,2 +1,3 @@
 *.aider.*
 .env
+.aider.chat.history.md
