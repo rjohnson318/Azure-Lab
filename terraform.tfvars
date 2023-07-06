@@ -1,3 +1,3 @@
-location = "West US"
-resource_group_name = "myResourceGroup"
-storage_account_name = "mystorageaccount"
+location = "East US"
+resource_group_name = "Main-Resources"
+storage_account_name = "mystorageaccount1234777"
