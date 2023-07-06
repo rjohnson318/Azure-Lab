@@ -1,0 +1,91 @@
+
+# 2023-07-06 18:07:40.458806
++can you generate this directory structure for use in my azure lab.  .
++├── modules                # Terraform modules, reusable infrastructure chunks
++│   ├── network
++│   │   ├── main.tf
++│   │   ├── variables.tf
++│   │   └── outputs.tf
++│   ├── compute
++│   │   ├── main.tf
++│   │   ├── variables.tf
++│   │   └── outputs.tf
++│   └── storage
++│       ├── main.tf
++│       ├── variables.tf
++│       └── outputs.tf
++├── policies               # Terraform modules for policies
++│   ├── policy1
++│   │   ├── main.tf
++│   │   ├── variables.tf
++│   │   └── outputs.tf
++│   └── policy2
++│       ├── main.tf
++│       ├── variables.tf
++│       └── outputs.tf
++├── management_groups      # Terraform modules for management groups
++│   ├── group1
++│   │   ├── main.tf
++│   │   ├── variables.tf
++│   │   └── outputs.tf
++│   └── group2
++│       ├── main.tf
++│       ├── variables.tf
++│       └── outputs.tf
++├── environments           # Terragrunt live infrastructure code for each environment
++│   ├── dev
++│   │   ├── network
++│   │   │   └── terragrunt.hcl
++│   │   ├── compute
++│   │   │   └── terragrunt.hcl
++│   │   ├── storage
++│   │   │   └── terragrunt.hcl
++│   │   ├── policies
++│   │   │   ├── policy1
++│   │   │   │   └── terragrunt.hcl
++│   │   │   └── policy2
++│   │   │       └── terragrunt.hcl
++│   │   └── management_groups
++│   │       ├── group1
++│   │       │   └── terragrunt.hcl
++│   │       └── group2
++│   │           └── terragrunt.hcl
++│   ├── staging
++│   │   ├── network
++│   │   │   └── terragrunt.hcl
++│   │   ├── compute
++│   │   │   └── terragrunt.hcl
++│   │   ├── storage
++│   │   │   └── terragrunt.hcl
++│   │   ├── policies
++│   │   │   ├── policy1
++│   │   │   │   └── terragrunt.hcl
++│   │   │   └── policy2
++│   │   │       └── terragrunt.hcl
++│   │   └── management_groups
++│   │       ├── group1
++│   │       │   └── terragrunt.hcl
++│   │       └── group2
++│   │           └── terragrunt.hcl
++│   └── prod
++│       ├── network
++│       │   └── terragrunt.hcl
++│       ├── compute
++│       │   └── terragrunt.hcl
++│       ├── storage
++│       │   └── terragrunt.hcl
++│       ├── policies
++│       │   ├── policy1
++│       │   │   └── terragrunt.hcl
++│       │   └── policy2
++│       │       └── terragrunt.hcl
++│       └── management_groups
++│           ├── group1
++│           │   └── terragrunt.hcl
++│           └── group2
++│               └── terragrunt.hcl
++└── terragrunt.hcl         # Root Terragrunt configuration file
++
+
+# 2023-07-06 18:08:29.446147
++can you create a bash script that will do this 
